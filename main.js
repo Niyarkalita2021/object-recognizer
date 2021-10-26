@@ -2,9 +2,6 @@ img = "";
 objects = [];
 status = "";
 
-function preload(){
-    img = loadImage('background.jpg');
-}
 function setup() {
     canvas = createCanvas(380, 380);
     canvas.center();
